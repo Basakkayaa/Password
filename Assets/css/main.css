@@ -1,0 +1,66 @@
+
+body{
+   background-color: rgb(144, 159, 172);
+    color: var(--132-b-50, #132B50);
+}
+.container{
+    width: 584px;
+    height: 577px;
+    border-radius: 16px;
+    background-color:#FFF;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 39px;
+    
+}
+.card{
+    width: 414px;
+    /* height: 314px; */
+    background-color:#ffff;
+}
+.card-profile{
+   display:flex;
+   gap: 16px;
+}
+
+.card-password{
+    width: 414px;
+    height: 84px;
+    background-color:#FFF;;
+    display: flex;
+}
+.input-box{
+    width: 361px;
+    height:46px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--132-b-50, #132B50);
+    margin-left: -59px;
+}
+input{
+    width: 107px;
+    height: 17px;
+    border: none;
+    /* text-align: center; */
+    /* margin-top: 22px; */
+    margin: 10px;
+}
+
+.card-sign{
+    display: flex;
+    align-items: center;
+}
+
+
+/* ****************Reset HTML için ****************/
+.loader{
+    width: 150px;
+    height: 150px;
+    border-left: 5px solid #38ffe3;
+    border-right: 5px solid;
+    border-radius: 50%;
+    animation: right5231 0.9s linear infinite;
+}

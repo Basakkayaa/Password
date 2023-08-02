@@ -1,0 +1,26 @@
+ .icon-profile{
+    background-image:url(../icon/profile.png);
+    background-repeat:no-repeat;
+    /* padding: 40px; */
+    width: 78px;
+    height: 78px;
+ }
+
+ .icon-rounded{
+  border: none;
+  filter: drop-shadow(1px 1px 1px white);
+ }
+ .icon-lock{
+   background-image: url(../icon/lock.svg);
+   background-repeat: no-repeat;
+   padding-left: 22px;
+   padding-bottom: 10px;
+   margin:16px;
+ }
+ .icon-hidden{
+  background-image: url(../icon/eyes.svg);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  padding: 20px;
+
+ }

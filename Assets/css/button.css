@@ -1,0 +1,67 @@
+.btn{
+    width: 103px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: #132B50;
+    color: #FFF;
+    /* margin-left: 70px; */
+    border: none;
+}
+
+.btn:hover{
+    background-color:pink;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:rotate(15deg)
+}
+.icon-btn{
+    background-image: url(../icon/active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 38px; */
+}
+/* **********************checkbox ********************/
+.toggle {
+    --width: 56px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+  
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .toggle__input {
+    display: none;
+  }
+  
+  .toggle__fill {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background:pink;
+    transition: background 0.2s;
+  }
+  
+  .toggle__input:checked ~ .toggle__fill {
+    background:green;
+  }
+  
+  .toggle__fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background:#132B50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+    border: 1 solid;
+  }
+  
+  .toggle__input:checked ~ .toggle__fill::after {
+    transform: translateX(var(--height));
+  }
